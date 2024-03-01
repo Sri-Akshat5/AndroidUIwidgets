@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -32,6 +33,8 @@ public class ButtonClickEventOne extends AppCompatActivity {
             public void onClick(View v) {
                String name =  et_one.getText().toString();
                 tv_one.setText("Name:" + name);
+
+                Toast.makeText(getApplicationContext(), "Name"+name, Toast.LENGTH_SHORT).show();
             }
         });
     }
