@@ -13,7 +13,7 @@
         android:theme="@style/Theme.AndroidUIWidgets"
         tools:targetApi="31">
         <activity
-            android:name=".CustomToast"
+            android:name=".MyForm"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,10 +22,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ButtonClickEventOne"
+            android:name=".CustomToast"
             android:exported="false">
 
         </activity>
+        <activity
+            android:name=".ButtonClickEventOne"
+            android:exported="false"></activity>
     </application>
 
 </manifest>

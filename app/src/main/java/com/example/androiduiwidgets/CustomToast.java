@@ -15,16 +15,7 @@ public class CustomToast extends AppCompatActivity {
         setContentView(R.layout.activity_custom_toast);
     }
 
-    public void opentoast(View view){
-        LayoutInflater lf = getLayoutInflater();
 
-        android.view.View layout = lf.inflate(R.layout.layoutcustomtoastdesign,findViewById(R.id.cst_toast));
 
-        Toast t = new Toast(getApplicationContext());
-       // t.setGravity(Gravity.CENTER);
-        t.setDuration(Toast.LENGTH_LONG);
-        t.setView(layout);
-        t.show();
 
-    }
 }

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">AndroidUIWidgets</string>
+
+    <string-array name="cities">
+        <item>Select Cities</item>
+        <item>Allahabad</item>
+        <item>Noida</item>
+        <item>Delhi</item>
+    </string-array>
 </resources>
