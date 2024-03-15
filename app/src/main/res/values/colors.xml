@@ -4,5 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="toastbg">#0176D3</color>
     <color name="blue">#0000FF</color>
+    <color name="orange">#FFA500</color>
+
 
 </resources>
